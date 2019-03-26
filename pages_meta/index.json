@@ -1,0 +1,13 @@
+{
+    "lang": "nl",
+    "title": "Interxion Dell Girlsday 2019",
+    "stylesheets": ["./css/style.css"],
+    "scripts": ["./js/main.js"],
+    "charset": "utf-8",
+    "description": "Interxion Dell Girlsday 2019",
+    "keywords": "interxion, dell, girlsday",
+    "author": "None",
+    "favicon": "./images/favicon.ico",
+    "viewport": "width=device-width, initial-scale=1",
+    "extra": []
+  }

@@ -1,0 +1,29 @@
+{
+  "name": "girlsday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-pages": "node ./build_scripts/builder.js",
+    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interxiondellgirlsday/girlsday.git"
+  },
+  "author": "Florine de Geus <florinedegeus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/interxiondellgirlsday/girlsday/issues"
+  },
+  "homepage": "https://github.com/interxiondellgirlsday/girlsday#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "favicon-emoji": "^2.3.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.1",
+    "live-server": "^1.2.1",
+    "markdown-it": "^8.4.2",
+    "nodemon": "^1.18.10"
+  }
+}
