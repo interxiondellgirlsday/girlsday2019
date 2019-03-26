@@ -7,7 +7,8 @@ module.exports = {
   <head>
     <title>${pageMeta.title || this.defaultMeta.title}</title>
     <meta charset="${pageMeta.charset || this.defaultMeta.charset}">
-    <metaname="description" content="${pageMeta.description || this.defaultMeta.description}>"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="${pageMeta.description || this.defaultMeta.description}>"
     <meta name="keywords" content="${pageMeta.keywords || this.defaultMeta.keywords}">
     <meta name="author" content="${pageMeta.author || this.defaultMeta.author}">
     ${
