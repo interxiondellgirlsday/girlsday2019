@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "index": "./build_scripts/index.py > pages/index.md",
     "build-pages": "node ./build_scripts/builder.js",
-    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\""
+    "start": "npm run index; concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\""
   },
   "repository": {
     "type": "git",
